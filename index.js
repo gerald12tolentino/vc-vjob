@@ -16,7 +16,7 @@ app.use(cors());
 const PORT = process.env.PORT || 5000;
 app.use(express.static('client'));
 app.get('/', (req, res) => {
-	req.sendFile(path.resolve,(__dirname, 'client', 'index.html'));
+	res.send('Running');
 });
 
 io.on("connection", (socket) => {

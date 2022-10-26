@@ -1,0 +1,15 @@
+body {
+    background:
+    linear-gradient(
+      rgba(0, 47, 255, 0.788), 
+      rgba(0, 119, 255, 0.603)
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
